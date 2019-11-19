@@ -4,4 +4,5 @@ def directors_database
 end
 
 def gross_for directors
-  
+  puts direcors_totals
+end
