@@ -3,8 +3,8 @@ def directors_database
   @_db ||= YAML.load(rot13.call(File.open("directors_db").read.to_s))
 end
 
-def gross_for directors
-  directors_totals = ["Stephen Spielberg"=>1357566430,
+ gross_for directors
+   = ["Stephen Spielberg"=>1357566430,
         "Russo Brothers"=>2281002470,
         "James Cameron"=>2571020373,
         "Spike Lee"=>256624217,
