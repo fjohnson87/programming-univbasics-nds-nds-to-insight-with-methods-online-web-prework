@@ -13,4 +13,6 @@ end
         "Quentin Tarantino"=>662738268,
         "Martin Scorsese"=>636812242,
         "Francis Ford Coppola"=>509719258}
+def gross_for_director(director_data)
+  gross_for directors.values.sum
 end
